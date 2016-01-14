@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Tirth"
+            android:checked="false"
+            android:icon="@drawable/tirthplace"
+            android:title="@string/Tirth"/>
+
+        <item
+            android:id="@+id/pathshala"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/title_activity_technique4" />
+
+
+        <item
+            android:id="@+id/bhajan"
+            android:checked="false"
+            android:icon="@drawable/bhajan"
+            android:title="@string/bhajan" />
+
+        <item
+            android:id="@+id/granth"
+            android:checked="false"
+            android:icon="@drawable/ic_send_black"
+            android:title="@string/granth" />
+
+        <item
+            android:id="@+id/stuti"
+            android:checked="false"
+            android:icon="@drawable/ic_drafts_black"
+            android:title="@string/stuti" />
+
+
+        <item
+            android:id="@+id/niyam_chakra"
+            android:checked="false"
+            android:icon="@drawable/niyam"
+            android:title="@string/niyam_chakra" />
+        <item
+            android:id="@+id/prashnotar"
+            android:checked="false"
+            android:icon="@drawable/ic_error_black"
+            android:title="@string/prashnotar" />
+
+    </group>
+</menu>
